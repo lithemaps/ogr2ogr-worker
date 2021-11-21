@@ -1,5 +1,5 @@
 FROM osgeo/gdal:ubuntu-full-latest
-RUN curl -fsSL https://deb.nodesource.com/setup_16.x | -E bash -
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add
 RUN apt update && apt install -y yarn
