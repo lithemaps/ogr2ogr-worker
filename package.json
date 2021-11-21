@@ -5,5 +5,8 @@
   "main": "src/index.js",
   "repository": "git@github.com:lithemaps/ogr2ogr-worker.git",
   "author": "Kenneth Tsang <me@jxeeno.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.6"
+  }
 }
