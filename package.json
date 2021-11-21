@@ -1,0 +1,9 @@
+{
+  "name": "ogr2ogr-worker",
+  "version": "1.0.0",
+  "description": "a worker which converts files from one spatial format to another",
+  "main": "src/index.js",
+  "repository": "git@github.com:lithemaps/ogr2ogr-worker.git",
+  "author": "Kenneth Tsang <me@jxeeno.com>",
+  "license": "MIT"
+}
